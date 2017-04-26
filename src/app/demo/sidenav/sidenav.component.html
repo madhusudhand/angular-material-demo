@@ -1,3 +1,31 @@
-<p>
-  sidenav works! sidenav works! sidenav works! sidenav works!
-</p>
+<!--<md-list>-->
+  <!--<h3 md-subheader>User Apps</h3>-->
+  <!--<md-list-item *ngFor="let folder of folders">-->
+    <!--<md-icon md-list-icon>folder</md-icon>-->
+    <!--<h4 md-line>{{folder.name}}</h4>-->
+    <!--<p md-line> {{folder.updated | date}} </p>-->
+  <!--</md-list-item>-->
+
+  <!--<md-divider></md-divider>-->
+
+  <!--<h3 md-subheader>Settings</h3>-->
+  <!--<md-list-item *ngFor="let note of notes">-->
+    <!--<md-icon md-list-icon>note</md-icon>-->
+    <!--<h4 md-line>{{note.name}}</h4>-->
+    <!--<p md-line> {{note.updated | date}} </p>-->
+  <!--</md-list-item>-->
+<!--</md-list>-->
+
+<md-nav-list>
+  <md-list-item *ngFor="let item of appItems">
+    {{ item }}
+  </md-list-item>
+
+  <md-divider></md-divider>
+
+  <md-list-item *ngFor="let item of genItems">
+    {{ item }}
+  </md-list-item>
+
+</md-nav-list>
+

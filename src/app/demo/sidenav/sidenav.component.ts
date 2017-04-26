@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidenavComponent implements OnInit {
 
+  appItems = ['Photos', 'Albums', 'Random Stories'];
+  genItems = ['Profile', 'Settings', 'Help'];
+
   constructor() { }
 
   ngOnInit() {
