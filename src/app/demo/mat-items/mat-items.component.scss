@@ -1,0 +1,14 @@
+md-card-content {
+  display: flex;
+  flex-direction: column;
+
+  md-input-container {
+    width: 100%;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}

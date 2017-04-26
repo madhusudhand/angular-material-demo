@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CardsComponent } from './cards/cards.component';
+import { MatItemsComponent } from './mat-items/mat-items.component';
+import { NoDataComponent } from './no-data/no-data.component';
 
 @NgModule({
   imports: [
@@ -19,7 +21,9 @@ import { CardsComponent } from './cards/cards.component';
     HeaderComponent,
     SidenavComponent,
     DashboardComponent,
-    CardsComponent
+    CardsComponent,
+    MatItemsComponent,
+    NoDataComponent
   ]
 })
 export class DemoModule { }
