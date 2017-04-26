@@ -1,3 +1,7 @@
-<p>
-  demo works!
-</p>
+<md-sidenav-container class="sidenav-container">
+  <md-sidenav #sidenav class="sidenav">
+    <app-sidenav></app-sidenav>
+  </md-sidenav>
+
+  <app-header (openNav)="sidenav.open()"></app-header>
+</md-sidenav-container>
